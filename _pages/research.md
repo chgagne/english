@@ -20,7 +20,7 @@ My research interests are on the elaboration of methods for machine learning and
     - Smart Grids
     - Autonomous Vehicles
 
-### Software Projects
+## Software Projects
 
 - [DEAP : Distributed Evolutionary Algorithms in Python](https://github.com/deap/deap)
 - [SCHNAPS : Generic Population-based Simulator for Public Health](https://github.com/audurand/schnaps)
@@ -29,7 +29,7 @@ My research interests are on the elaboration of methods for machine learning and
 - [Library for Lens System Ray Tracing (LLSRT)](http://w3.gel.ulaval.ca/~cgagne/llsrt/)
 
 
-### Organization and Committees
+## Organization and Committees
 
 - Organizing committee, [Interactive Labeling and Data Augmentation for Vision](https://ildav-workshop.github.io/), [ICCV 2021](http://iccv2021.thecvf.com/) Workshop, October 11, 2021.
 - Track chair, [Evolutionary Machine Learning](https://gecco-2021.sigevo.org/Tracks#EML%20-%20Evolutionary%20Machine%20Learning), [GECCO 2021](https://gecco-2021.sigevo.org/HomePage), Lille, France, July 10-14, 2021

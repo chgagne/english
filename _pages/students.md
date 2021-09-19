@@ -2,7 +2,7 @@
 permalink: /students/
 ---
 
-### Current Students 
+## Current Students 
 
 - Ph.D.
     - Sara Karami, Ph.D. in Electrical Engineering, since 2021
@@ -29,7 +29,7 @@ permalink: /students/
     - Fatemeh Gholi Zadeh Kharrat, cosupervisor: [Caroline Sirois](http://www.crchudequebec.ulaval.ca/recherche/chercheurs/caroline-sirois/), since 2020
 
 
-### Former Students
+## Former Students
 
 - Ph.D.
     - Mahdieh Abbasi, [*Toward Robust Deep Neural Networks*](http://hdl.handle.net/20.500.11794/67766), Ph.D. in Electrical Engineering (cosupervisor: [Denis Laurendeau](https://www.gelgif.ulaval.ca/departement-et-professeurs/personnel-et-professeurs/professeurs/fiche/show/laurendeau-denis/)), 2020
