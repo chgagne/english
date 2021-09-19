@@ -1,14 +1,14 @@
 # main links
 main:
   - title: "About"
-    url: /  
+    url: /english/
   - title: "Research"
-    url: /research/
+    url: /english/research/
   - title: "Teaching"
-    url: /teaching/
+    url: /english/teaching/
   - title: "Publications"
     url: "https://scholar.google.com/citations?hl=en&user=egixsbEAAAAJ&view_op=list_works&sortby=pubdate"
   - title: "Students"
-    url: /students/
+    url: /english/students/
   - title: "Français"
-    url: https://chgagne.github.io/
+    url: /
