@@ -1,5 +1,6 @@
 ---
 permalink: /
+title: "About"
 ---
 
 Director of the [Institute Intelligence and Data (IID)](https://iid.ulaval.ca/en/)  

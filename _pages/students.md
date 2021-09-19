@@ -1,8 +1,7 @@
 ---
 permalink: /students/
+title: "Students"
 ---
-
-# Students
 
 ## Current Students 
 
