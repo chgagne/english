@@ -2,6 +2,8 @@
 permalink: /research/
 ---
 
+# Research
+
 My research interests are on the elaboration of methods for machine learning and stochastic optimization and their applications.
 
 - Methods

@@ -2,6 +2,8 @@
 permalink: /students/
 ---
 
+# Students
+
 ## Current Students 
 
 - Ph.D.
