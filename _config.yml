@@ -21,7 +21,7 @@ title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "Christian Gagné"
 description              : # "Christian Gagné's Webpage"
-url                      : "https://chgagne.github.io/english/"
+url                      : "https://chgagne.github.io/english"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "chgagne/english"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
