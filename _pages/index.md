@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "About"
+title: "Christian Gagné"
 ---
 
 Director of the [Institute Intelligence and Data (IID)](https://iid.ulaval.ca/en/)  
