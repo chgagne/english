@@ -1,14 +1,14 @@
 # main links
 main:
   - title: "About"
-    url: /english/
+    url: /english
   - title: "Research"
-    url: /english/research/
+    url: /english/research
   - title: "Teaching"
-    url: /english/teaching/
+    url: /english/teaching
   - title: "Publications"
     url: "https://scholar.google.com/citations?hl=en&user=egixsbEAAAAJ&view_op=list_works&sortby=pubdate"
   - title: "Students"
-    url: /english/students/
+    url: /english/students
   - title: "**Français**"
     url: /
