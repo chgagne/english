@@ -6,3 +6,26 @@
 
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
+
+.author__avatar {
+  display: table-cell;
+  vertical-align: top;
+  width: 36px;
+  height: 36px;
+
+  @include breakpoint($large) {
+    display: block;
+    width: auto;
+    height: auto;
+  }
+
+  img {
+    max-width: 180px;
+    border-radius: 0%;
+
+    @include breakpoint($large) {
+      padding: 0px;
+      border: 1px solid $border-color;
+    }
+  }
+}
