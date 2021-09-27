@@ -23,7 +23,6 @@ title: "Students"
     - Thomas Philippon, M.Sc. in Electrical Engineering, since 2020
     - Cyril Blanc, M.Sc. in Electrical Engineering (cosupervisor: [Jean-François Lalonde](http://vision.gel.ulaval.ca/~jflalonde/)), since 2020
     - Ali Assafiri, M.Sc. in Geomatic Sciences (supervisor: [Sylvie Daniel](https://www.scg.ulaval.ca/sylvie-daniel)), since 2019
-    - Mohamed Abderrahmen Abid, M.Sc. in Electrical Engineering, since 2019
     - Ba Diep Nguyen, M.Sc. in Electrical Engineering (cosupervisor: Daniel Reinharz), since 2018
     - Alexandre Hains, M.Sc. in Electrical Engineering, since 2018
 - Postdoctoral Fellows
@@ -45,6 +44,7 @@ title: "Students"
     - [Meysam Argany](https://profile.ut.ac.ir/en/~argany), [*Development of a GIS-based method for sensor network deployment and coverage optimization*](http://hdl.handle.net/20.500.11794/25829), Ph.D. in Geomatic Sciences (supervisor: [Mir Abolfazl Mostafavi](https://www.scg.ulaval.ca/mir-abolfazl-mostafavi)), 2015
     - Darwin Brochero, [*Hydroinformatics and diversity in hydrological ensemble prediction systems*](http://hdl.handle.net/20.500.11794/24547), Ph.D. in Water Engineering (supervisor: [François Anctil](https://www.gci.ulaval.ca/departement-et-professeurs/professeurs-et-personnel/professeurs/fiche/show/anctil-francois/)), 2013
 - Master's
+    - Mohamed Abderrahmen Abid, *Diverse Image Generation with Very Low Resolution Conditioning*, M.Sc. in Electrical Engineering, 2021
     - Gabriel Leclerc, [*Apprendre de données positives et non étiquetées: application à la segmentation et la détection d’événements calciques*](http://hdl.handle.net/20.500.11794/69813), M.Sc. in Electrical Engineering (cosupervisor: [Flavie Lavoie-Cardinal](https://cervo.ulaval.ca/fr/flavie-lavoie-cardinal)), 2021
     - [Hugo Siqueira Gomes](https://hugodovs.github.io/), [*Meta Learning for Population-Based Algorithms in Black-box Optimization*](http://hdl.handle.net/20.500.11794/68764), M.Sc. in Electrical Engineering, 2021
     - [Louis-Émile Robitaille](https://l3robot.github.io/), [*Réseaux de neurones pour l’apprentissage de la préférence en microscopie super-résolution*](http://hdl.handle.net/20.500.11794/68744), M.Sc. in Electrical Engineering (cosupervisors : [Audrey Durand](https://audurand.wordpress.com/) and [Flavie Lavoie-Cardinal](https://cervo.ulaval.ca/fr/flavie-lavoie-cardinal)), 2021
