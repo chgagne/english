@@ -116,7 +116,7 @@ author:
       url: "https://scholar.google.com/citations?hl=en&user=egixsbEAAAAJ&view_op=list_works&sortby=pubdate"
     - label: "Academic CV"
       icon: "fas fa-certificate"
-      url: "/files/cv-cgagne-en.pdf"
+      url: "/english/files/cv-cgagne-en.pdf"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
       url: "https://twitter.com/chgagne"
