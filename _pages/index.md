@@ -29,4 +29,4 @@ He completed a PhD in Electrical Engineering (Université Laval) in 2005 and the
 
 His research interests are on the development of methods for machine learning and stochastic optimization. In particular, he is interested by deep neural networks, representation learning and transfer, meta-learning and multitask learning. He is also interested by optimization approaches based on probabilistic models and evolutionary algorithms for black-box optimization and automatic programming, among others. A significant share of his research work is on the practical use of these techniques in domains such as computer vision, microscopy, health, energy and transportation.
 
-For more details, see the [CV](/files/cv-cgagne-en.pdf).
+For more details, see the [CV](/english/files/cv-cgagne-en.pdf).
