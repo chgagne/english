@@ -7,7 +7,7 @@ title: "Students"
 
 - Ph.D.
     - Sara Karami, Ph.D. in Electrical Engineering, since 2021
-    - [Sabyasachi Sahoo](https://sabyasachis.github.io/), Ph.D. in Electrical Engineering, since 2021
+    - [Sabyasachi Sahoo](https://sabyasachis.github.io/), Ph.D. in Electrical Engineering (cosupervisor: [Frédéric Precioso](https://www.i3s.unice.fr/~precioso/), Université Côte d'Azur), since 2021
     - Catherine Bouchard, Ph.D. in Electrical Engineering (cosupervisor: [Flavie Lavoie-Cardinal](https://cervo.ulaval.ca/fr/flavie-lavoie-cardinal)), since 2019 (fast-track to PhD in 2021)
     - [Adam Tupper](https://www.adamtupper.nz/), Ph.D. in Electrical Engineering, since 2021
     - Benjamin Léger, Ph.D. in Electrical Engineering, since 2020
