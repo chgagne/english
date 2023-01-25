@@ -6,6 +6,7 @@ title: "Students"
 ## Current Students 
 
 - Ph.D.
+    - Frédéric Beaupré, Ph.D. in Biophotonic, (cosupervisor: [Flavie Lavoie-Cardinal](https://cervo.ulaval.ca/fr/flavie-lavoie-cardinal)), since 2021 (fast-track to PhD in 2022)
     - Jonas Ngnawé, Ph.D. in Computer Science (cosupervisor: [Frédéric Precioso](https://www.i3s.unice.fr/~precioso/), since 2021
     - Sara Karami, Ph.D. in Electrical Engineering, since 2021
     - [Sabyasachi Sahoo](https://sabyasachis.github.io/), Ph.D. in Electrical Engineering (cosupervisor: [Frédéric Precioso](https://www.i3s.unice.fr/~precioso/), Université Côte d'Azur), since 2021
@@ -13,21 +14,20 @@ title: "Students"
     - [Adam Tupper](https://www.adamtupper.nz/), Ph.D. in Electrical Engineering, since 2021
     - Benjamin Léger, Ph.D. in Electrical Engineering, since 2020
     - Nour Elhouda Dhiab, Ph.D. in Civil Engineering (supervisor: [Jean Côté](https://www.gci.ulaval.ca/departement-et-professeurs/professeurs-et-personnel/professeurs/fiche/show/cote-jean/)), since 2019
-    - [Arman Afrasiyabi](https://armanafrasiyabi.github.io/), Ph.D. in Electrical Engineering (cosupervisor: [Jean-François Lalonde](http://vision.gel.ulaval.ca/~jflalonde/)), since 2017
     - Sophie Baillargeon, Ph.D. in Mathematics (specialization in Statistic) (supervisor: [Thierry Duchesne](https://www.mat.ulaval.ca/departement-et-professeurs/direction-personnel-et-etudiants/professeurs/fiche-de-professeur/show/duchesne-thierry/)), since 2014
 - Master's
-    - Frédéric Beaupré, M.Sc. in Biophotonic, (cosupervisor: [Flavie Lavoie-Cardinal](https://cervo.ulaval.ca/fr/flavie-lavoie-cardinal)), since 2021
+    - Cynthia Garcia Ybarra, M.Sc. in Computer Science, (cosupervisor: [Anne-Sophie Charest](https://www.mat.ulaval.ca/departement-et-professeurs/direction-personnel-et-etudiants/professeurs/fiche-de-professeur/anne-sophie-charest-84)), since 2023
     - Antoine Ollier, M.Sc. in Electrical Engineering (supervisor: [Flavie Lavoie-Cardinal](https://cervo.ulaval.ca/fr/flavie-lavoie-cardinal)), since 2020
     - Thomas Philippon, M.Sc. in Electrical Engineering, since 2020
     - Ba Diep Nguyen, M.Sc. in Electrical Engineering (cosupervisor: Daniel Reinharz), since 2018
 - Postdoctoral Fellows
-    - [Theresa Wiesner](https://wiesnertheresa.github.io/), supervisor: [Flavie Lavoie-Cardinal](https://cervo.ulaval.ca/fr/flavie-lavoie-cardinal), since 2021
     - Fatemeh Gholi Zadeh Kharrat, cosupervisor: [Caroline Sirois](http://www.crchudequebec.ulaval.ca/recherche/chercheurs/caroline-sirois/), since 2020
 
 
 ## Former Students
 
 - Ph.D.
+    - [Arman Afrasiyabi](https://armanafrasiyabi.github.io/), [*Representation Learning for Few-shot Image Classification*](http://hdl.handle.net/20.500.11794/73767), Ph.D. in Electrical Engineering (cosupervisor: [Jean-François Lalonde](http://vision.gel.ulaval.ca/~jflalonde/)), 2022
     - [Changjian Shui](https://cjshui.github.io/), [*Principled Deep Learning Approaches for Learning from Limited Labeled Data through Distribution Matching*](http://hdl.handle.net/20.500.11794/73028), Ph.D. in Electrical Engineering (cosupervisor: [Boyu Wang](https://sites.google.com/site/borriewang/), Western Ontario), 2022
     - Mahdieh Abbasi, [*Toward Robust Deep Neural Networks*](http://hdl.handle.net/20.500.11794/67766), Ph.D. in Electrical Engineering (cosupervisor: [Denis Laurendeau](https://www.gelgif.ulaval.ca/departement-et-professeurs/personnel-et-professeurs/professeurs/fiche/show/laurendeau-denis/)), 2020
     - Marc-André Gardner, [*Learning to Estimate Indoor Illumination*](http://hdl.handle.net/20.500.11794/67302), Ph.D. in Electrical Engineering (supervisor: [Jean-François Lalonde](http://vision.gel.ulaval.ca/~jflalonde/)), 2020
@@ -53,6 +53,8 @@ title: "Students"
     - [Audrey Durand](https://audurand.wordpress.com/), [*Simulation et apprentissage Monte-Carlo de stratégies d'intervention en santé publique*](http://hdl.handle.net/20.500.11794/22982), M.Sc. in Electrical Engineering (cosupervisor: Daniel Reinharz), 2011
     - François-Michel De Rainville, [*Design d'expérimentation interactif : Aide à la compréhension de systèmes complexes*](http://hdl.handle.net/20.500.11794/22172), M.Sc. in Electrical Engineering (supervisor: [Denis Laurendeau](https://www.gelgif.ulaval.ca/departement-et-professeurs/personnel-et-professeurs/professeurs/fiche/show/laurendeau-denis/)), 2010
 - Postdoctoral Fellows
+    - [Fan Zhou](https://fzhou.cc/), supervisor: [Mario Marchand](https://www2.ift.ulaval.ca/~mmarchand/), 2022
+    - [Theresa Wiesner](https://wiesnertheresa.github.io/), supervisor: [Flavie Lavoie-Cardinal](https://cervo.ulaval.ca/fr/flavie-lavoie-cardinal), 2021-2022
     - Ihsen Hedhli, 2018 - 2020
     - Azadeh Sadat Mozafari, 2017 - 2019
     - Farkhondeh Kiaee, 2016
