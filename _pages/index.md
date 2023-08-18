@@ -20,6 +20,10 @@ Office: PLT-1138-F
 Email: [christian.gagne@gel.ulaval.ca](mailto:christian.gagne@gel.ulaval.ca)  
 Phone: use email
 
+> Two PhD projects available in applied machine learning:
+> - [Machine Learning for Data-driven Multi-agent Transportation Simulation Models](https://www.projets-recherche.ulaval.ca/en/project?id=431099)
+> - [Federated Learning for Decentralized and Personalized Demand Side Management in Smart Grids](https://www.projets-recherche.ulaval.ca/en/project?id=431100)
+
 
 ## Biosketch
 
