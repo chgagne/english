@@ -2,8 +2,7 @@
 permalink: /
 title: "Christian Gagné"
 ---
-
-> Two PhD projects available in applied machine learning:
+> Two PhD projects available in my team on applied machine learning:
 > - [Machine Learning for Data-driven Multi-agent Transportation Simulation Models](https://www.projets-recherche.ulaval.ca/en/project?id=431099)
 > - [Federated Learning for Decentralized and Personalized Demand Side Management in Smart Grids](https://www.projets-recherche.ulaval.ca/en/project?id=431100)
 
