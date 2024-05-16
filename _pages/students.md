@@ -17,9 +17,11 @@ title: "Students"
     - Nour Elhouda Dhiab, Ph.D. in Civil Engineering (supervisor: [Jean Côté](https://www.gci.ulaval.ca/departement-et-professeurs/professeurs-et-personnel/professeurs/fiche/show/cote-jean/)), since 2019
     - Sophie Baillargeon, Ph.D. in Mathematics (specialization in Statistic) (supervisor: [Thierry Duchesne](https://www.mat.ulaval.ca/departement-et-professeurs/direction-personnel-et-etudiants/professeurs/fiche-de-professeur/show/duchesne-thierry/)), since 2014
 - Master's
+    - Olivier Bussière, M.Sc. in Computer Science, (cosupervisor: [Bobin Wang](https://www.fsg.ulaval.ca/departements/professeurs/bobin-wang-1008)), since 2024
+    - Koraly Lessard, M.Sc. in Computer Science, (supervisor: [Flavie Lavoie-Cardinal](https://cervo.ulaval.ca/fr/flavie-lavoie-cardinal)), since 2024
+    - Katrine Castonguay, M.Sc. in Computer Science, (supervisor: [Flavie Lavoie-Cardinal](https://cervo.ulaval.ca/fr/flavie-lavoie-cardinal)), since 2024
     - Cynthia García Ybarra, M.Sc. in Computer Science, (cosupervisor: [Anne-Sophie Charest](https://www.mat.ulaval.ca/departement-et-professeurs/direction-personnel-et-etudiants/professeurs/fiche-de-professeur/anne-sophie-charest-84)), since 2023
     - Antoine Séverin Ollier, M.Sc. in Electrical Engineering (supervisor: [Flavie Lavoie-Cardinal](https://cervo.ulaval.ca/fr/flavie-lavoie-cardinal)), since 2020
-    - Ba Diep Nguyen, M.Sc. in Electrical Engineering (cosupervisor: Daniel Reinharz), since 2018
 
 ## Former Students
 
@@ -38,7 +40,7 @@ title: "Students"
     - [Meysam Argany](https://profile.ut.ac.ir/en/~argany), [*Development of a GIS-based method for sensor network deployment and coverage optimization*](http://hdl.handle.net/20.500.11794/25829), Ph.D. in Geomatic Sciences (supervisor: [Mir Abolfazl Mostafavi](https://www.scg.ulaval.ca/mir-abolfazl-mostafavi)), 2015
     - Darwin Brochero, [*Hydroinformatics and diversity in hydrological ensemble prediction systems*](http://hdl.handle.net/20.500.11794/24547), Ph.D. in Water Engineering (supervisor: [François Anctil](https://www.gci.ulaval.ca/departement-et-professeurs/professeurs-et-personnel/professeurs/fiche/show/anctil-francois/)), 2013
 - Master's
-    - Thomas Philippon, *Robustesse des mécanismes de défense adverse basés sur les ensembles de réseaux de neurones*, M.Sc. in Electrical Engineering, 2023
+    - Thomas Philippon, [*Robustesse des mécanismes de défense adverse basés sur les ensembles de réseaux de neurones*](http://hdl.handle.net/20.500.11794/117064), M.Sc. in Electrical Engineering, 2023
     - Cyril Blanc, [*Caractérisation automatique d'immeuble depuis une image de façade*](http://hdl.handle.net/20.500.11794/73352), M.Sc. in Electrical Engineering (supervisor: [Jean-François Lalonde](http://vision.gel.ulaval.ca/~jflalonde/)), 2022
     - Mohamed Abderrahmen Abid, [*Diverse Image Generation with Very Low Resolution Conditioning*](http://hdl.handle.net/20.500.11794/70396), M.Sc. in Electrical Engineering, 2021
     - Gabriel Leclerc, [*Apprendre de données positives et non étiquetées: application à la segmentation et la détection d’événements calciques*](http://hdl.handle.net/20.500.11794/69813), M.Sc. in Electrical Engineering (cosupervisor: [Flavie Lavoie-Cardinal](https://cervo.ulaval.ca/fr/flavie-lavoie-cardinal)), 2021
