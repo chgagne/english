@@ -7,19 +7,17 @@ My research interests are on the elaboration of methods for machine learning and
 
 - Methods
     - Deep Neural Networks
-    - Representation Learning and Transfer
-    - Meta-learning
-    - Multitask Learning
-    - Probabilistic Model-based Optimization
+    - Large Language Models and Foundation Models
+    - Out-of-Distribution Learning and Domain Generalization
+    - Adversarial Machine Learning
     - Evolutionary Algorithms
     - Genetic Programming
 - Applications
-    - Pattern Recognition
     - Computer Vision
     - Microscopy and Neurosciences
     - Health
+    - Transportation and Sustainable Mobility
     - Smart Grids
-    - Autonomous Vehicles
 
 ## Project Pages
 
