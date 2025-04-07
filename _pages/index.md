@@ -23,7 +23,6 @@ Office: PLT-1138-F
 Email: [christian.gagne@gel.ulaval.ca](mailto:christian.gagne@gel.ulaval.ca)  
 Phone: use email
 
-
 ## Biosketch
 
 Christian Gagné is a professor at the [Electrical Engineering and Computer Engineering Department](https://www.fsg.ulaval.ca/departements/departement-de-genie-electrique-et-de-genie-informatique) of [Université Laval](https://www.ulaval.ca/en) since 2008. He is founding director of the [Institute Intelligence and Data (IID)](https://iid.ulaval.ca/en/). He holds a [Canada-CIFAR Artificial Intelligence Chair](https://cifar.ca/ai/canada-cifar-ai-chairs/) and is an academic associate member to [Mila](https://mila.quebec/en). He is also a member of the [Computer Vision and Systems Laboratory](http://vision.gel.ulaval.ca/en/index.php) (CVSL), a component of the [Robotics, Vision and Machine Intelligence Research Centre](https://cervim.ulaval.ca/?page_id=115&lang=en) (CeRVIM), and the [Big Data Research Centre](https://crdm.ulaval.ca) (CRDM) of Université Laval. He is also participating to the [REPARTI](https://reparti.ulaval.ca/?page_id=115&lang=en) and [UNIQUE](https://www.unique.quebec/home) strategic clusters of the FRQNT, the [VITAM](https://vitam.ulaval.ca/en/) FRQS center and the [International Observatory on the Societal Impacts of AI](https://www.obvia.ca/en) (OBVIA).
