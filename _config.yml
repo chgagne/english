@@ -105,7 +105,7 @@ atom_feed:
 author:
   name             : "Christian Gagné"
   avatar           : "/english/images/cgagne.jpg"
-  bio              : "[Canada-CIFAR AI Chair](https://www.cifar.ca/ai/pan-canadian-artificial-intelligence-strategy/the-canada-cifar-ai-chairs), [Mila](https://mila.quebec/en/)<br/> Director of the [Institute Intelligence and Data (IID)](https://iid.ulaval.ca/en/)<br/> Professor at [Université Laval](https://www.ulaval.ca/en)"
+  bio              : "[Canada-CIFAR AI Chair](https://cifar.ca/ai/canada-cifar-ai-chairs/), [Mila](https://mila.quebec/en/)<br/> Director of the [Institute Intelligence and Data (IID)](https://iid.ulaval.ca/en/)<br/> Professor at [Université Laval](https://www.ulaval.ca/en)"
   location         : "Quebec City, Quebec, Canada"
   links:
     - label: "christian.gagne@gel.ulaval.ca"
@@ -118,7 +118,7 @@ author:
       icon: "fas fa-certificate"
       url: "/english/files/cv-cgagne-en.pdf"
     - label: "Bluesky"
-      icon: "fa-brands fa-bluesky"
+      icon: "/english/images/square-bluesky-brands-solid.svg"
       url: "https://bsky.app/profile/cgagne.bsky.social"
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin-in"
@@ -135,7 +135,7 @@ footer:
       icon: "fa fa-graduation-cap"
       url: "https://scholar.google.com/citations?hl=en&user=egixsbEAAAAJ&view_op=list_works&sortby=pubdate"
     - label: "Bluesky"
-      icon: "fa-brands fa-bluesky"
+      icon: "/english/images/square-bluesky-brands-solid.svg"
       url: "https://bsky.app/profile/cgagne.bsky.social"
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin-in"
