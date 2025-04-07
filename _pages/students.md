@@ -18,6 +18,7 @@ title: "Students"
     - Sophie Baillargeon, Ph.D. in Mathematics (specialization in Statistic) (supervisor: [Thierry Duchesne](https://www.fsg.ulaval.ca/corps-professoral/thierry-duchesne)), since 2014
 - Master's
     - Camille Godbout, M.Sc. in Computer Science, (supervisor: [Bobin Wang](https://www.fsg.ulaval.ca/corps-professoral/bobin-wang)), since 2025
+    - Jacob Côté, M.Sc. in Computer Science, (supervisor: [Sophie Gobeil](https://sophie-gobeil.fsg.ulaval.ca/)), since 2025
     - Olivier Bussière, M.Sc. in Computer Science, (cosupervisor: [Bobin Wang](https://www.fsg.ulaval.ca/corps-professoral/bobin-wang)), since 2024
     - Katrine Castonguay, M.Sc. in Computer Science, (supervisor: [Flavie Lavoie-Cardinal](https://www.flc-lab.com/)), since 2024
     - Cynthia García Ybarra, M.Sc. in Computer Science, (cosupervisor: [Anne-Sophie Charest](https://www.fsg.ulaval.ca/corps-professoral/anne-sophie-chares)), since 2023
