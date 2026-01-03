@@ -7,7 +7,7 @@ title: "Christian Gagné"
 
 Director of the [Institute Intelligence and Data (IID)](https://iid.ulaval.ca/en/)  
 [Canada-CIFAR AI Chair](https://cifar.ca/ai/canada-cifar-ai-chairs/), associate academic member to [Mila](https://mila.quebec/en/)  
-Member of [CVSL](http://vision.gel.ulaval.ca/en/index.php) / [CeRVIM](https://cervim.ulaval.ca/?page_id=115&lang=en) / [CRDM](https://crdm.ulaval.ca) / [REPARTI](https://reparti.ulaval.ca/?page_id=115&lang=en) / [UNIQUE](https://www.unique.quebec/home) / [VITAM](https://vitam.ulaval.ca/en/) / [OBVIA](https://www.obvia.ca/en)  
+Member of [CVSL](http://vision.gel.ulaval.ca/en/index.php) / [CeRVIM](https://cervim.ulaval.ca/?page_id=115&lang=en) / [CRDM](https://crdm.ulaval.ca) / [REPARTI](https://reparti.ulaval.ca/?page_id=115&lang=en) / [UNIQUE](https://www.unique.quebec/home) / [CERVO](https://cervo.ulaval.ca/en/) / [VITAM](https://vitam.ulaval.ca/en/) / [OBVIA](https://www.obvia.ca/en)  
 Full professor at the [Electrical Engineering and Computer Engineering Department](https://www.fsg.ulaval.ca/departements/departement-de-genie-electrique-et-de-genie-informatique) of  
 [Université Laval](https://www.ulaval.ca/en)  
 
