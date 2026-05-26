@@ -6,8 +6,10 @@ title: "Students"
 ## Current Students 
 
 - Ph.D.
+    - Olivier Bussière, Ph.D. in Computer Science, (cosupervisor: [Bobin Wang](https://www.fsg.ulaval.ca/corps-professoral/bobin-wang)), since 2024 (fast-track to PhD in 2026)
+    - Mathis Rezzouk, Ph.D. in Electrical Engineering (supervisor: [Flavie Lavoie-Cardinal](https://www.flc-lab.com/)), since 2026
     - Arian Yavari, Ph.D. in Computer Science (supervisor: [Jiayi Hong](https://jiayihong.info/)), since 2026
-    - Nayoung Kwon, Ph.D. in Computer Science, since 2025
+    - Rose Nayoung Kwon, Ph.D. in Computer Science, since 2025
     - Meryam Chaieb, Ph.D. in Computer Science (supervisor: [Bobin Wang](https://www.fsg.ulaval.ca/corps-professoral/bobin-wang)), since 2025
     - Frédéric Beaupré, Ph.D. in Biophotonic, (cosupervisor: [Flavie Lavoie-Cardinal](https://www.flc-lab.com/)), since 2021 (fast-track to PhD in 2022)
     - [Jonas Ngnawé](https://ngnawejonas.github.io/), Ph.D. in Computer Science (cosupervisor: [Frédéric Precioso](https://www.i3s.unice.fr/~precioso/), since 2021
@@ -20,7 +22,6 @@ title: "Students"
 - Master's
     - Camille Godbout, M.Sc. in Computer Science, (supervisor: [Bobin Wang](https://www.fsg.ulaval.ca/corps-professoral/bobin-wang)), since 2025
     - Jacob Côté, M.Sc. in Computer Science, (supervisor: [Sophie Gobeil](https://sophie-gobeil.fsg.ulaval.ca/)), since 2025
-    - Olivier Bussière, M.Sc. in Computer Science, (cosupervisor: [Bobin Wang](https://www.fsg.ulaval.ca/corps-professoral/bobin-wang)), since 2024
     - Katrine Castonguay, M.Sc. in Computer Science, (supervisor: [Flavie Lavoie-Cardinal](https://www.flc-lab.com/)), since 2024
 
 ## Former Students
