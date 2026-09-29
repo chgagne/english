@@ -313,6 +313,18 @@ a:hover > .ic { opacity: 1; }
     font-weight: 600;
   }
 
+  // Nombre d'entrées annoncé par une rubrique. Écrit à la main dans la page et
+  // confronté par check-web.py au nombre de puces : il ne peut pas vieillir
+  // sans que le contrôle le dise.
+  .cpt {
+    margin-left: .5em;
+    color: var(--mu);
+    font: 400 .8rem/1 var(--mono);
+    letter-spacing: 0;
+    text-transform: none;
+    opacity: .75;
+  }
+
   // « Anciens étudiants » coupe la page en deux : le titre reprend la main et
   // les rubriques qu'il contient gardent le style d'étiquette des autres pages.
   h2.coupure {

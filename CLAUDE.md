@@ -100,6 +100,15 @@ Les pages appellent quelques classes, toutes définies dans `cgagne.scss` :
 | `{: .logiciels}` | après la liste des logiciels | nom en gras, description en gris |
 | `{: .mandats}` | après une liste de mandats | l'organisme lié ressort du rôle |
 | `<span class="sigle">GIF-7010</span>` | début d'une entrée de cours | sigle en chasse fixe |
+| `<span class="cpt">14</span>` | dans un titre de rubrique | le nombre d'entrées, **vérifié par `check-web.py`** |
+
+Le compte annoncé par `<span class="cpt">` est écrit à la main, mais il ne peut
+pas vieillir en silence : `check-web.py` le confronte au nombre de puces de la
+rubrique et signale « compte annoncé faux » dès qu'un étudiant est ajouté sans
+que le nombre suive. Les rubriques d'étudiants portent aussi un identifiant
+fixe — `{: #doctorat}`, `{: .rubrique #anciens-doctorat}` — sans quoi kramdown
+fabriquerait l'ancre à partir du titre, compte inclus, et elle changerait à
+chaque nouvel étudiant.
 
 Les liens du bandeau latéral et du pied de page portent un pictogramme, nommé
 par `icon:` dans `_config.yml` et dessiné dans `_includes/icones.html`. Le jeu

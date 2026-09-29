@@ -5,7 +5,8 @@ nav: students
 ---
 
 
-## Ph.D.
+## Ph.D. <span class="cpt">14</span>
+{: #phd}
 <!-- cv-section: supervision/doctorat-en-cours -->
 
 - **Nizar El Ghazal**, Electrical Engineering
@@ -24,7 +25,8 @@ nav: students
 - **Sophie Baillargeon**, Mathematics (specialization in Statistic) (supervisor: [Thierry Duchesne](https://www.fsg.ulaval.ca/corps-professoral/thierry-duchesne))
 {: .gens}
 
-## Master's
+## Master's <span class="cpt">3</span>
+{: #masters}
 <!-- cv-section: supervision/maitrise-en-cours -->
 
 - **Camille Godbout**, Computer Science (supervisor: [Bobin Wang](https://www.fsg.ulaval.ca/corps-professoral/bobin-wang))
@@ -33,10 +35,10 @@ nav: students
 {: .gens}
 
 ## Former Students
-{: .coupure}
+{: .coupure #former}
 
-### Ph.D.
-{: .rubrique}
+### Ph.D. <span class="cpt">14</span>
+{: .rubrique #former-phd}
 <!-- cv-section: supervision/doctorat-diplomes -->
 
 - **[Fatemeh Nourilenjan Nokabadi](https://fatemehn.github.io/)**, [*Adversarial Robustness of Learning-based Single Object Trackers*](https://hdl.handle.net/20.500.11794/176643), Electrical Engineering (cosupervisor: [Jean-François Lalonde](http://vision.gel.ulaval.ca/~jflalonde/)) <span class="an">2025</span>
@@ -55,8 +57,8 @@ nav: students
 - **Darwin Brochero**, [*Hydroinformatics and Diversity in Hydrological Ensemble Prediction Systems*](http://hdl.handle.net/20.500.11794/24547), Water Engineering (supervisor: [François Anctil](https://www.gci.ulaval.ca/departement-et-professeurs/professeurs-et-personnel/professeurs/fiche/show/anctil-francois/)) <span class="an">2013</span>
 {: .gens}
 
-### Master's
-{: .rubrique}
+### Master's <span class="cpt">14</span>
+{: .rubrique #former-masters}
 <!-- cv-section: supervision/maitrise-diplomes -->
 
 - **Cynthia García Ybarra**, [*Adversarial Random Forest for Synthetic Electronic Health Records Generation*](https://hdl.handle.net/20.500.11794/174783), Computer Science (cosupervisor: [Anne-Sophie Charest](https://www.fsg.ulaval.ca/corps-professoral/anne-sophie-charest)) <span class="an">2025</span>
@@ -75,8 +77,8 @@ nav: students
 - **François-Michel De Rainville**, [*Design d'expérimentation interactif : Aide à la compréhension de systèmes complexes*](http://hdl.handle.net/20.500.11794/22172), Electrical Engineering (supervisor: [Denis Laurendeau](https://www.gelgif.ulaval.ca/departement-et-professeurs/personnel-et-professeurs/professeurs/fiche/show/laurendeau-denis/)) <span class="an">2010</span>
 {: .gens}
 
-### Postdoctoral Fellows
-{: .rubrique}
+### Postdoctoral Fellows <span class="cpt">8</span>
+{: .rubrique #postdocs}
 <!-- cv-section: supervision/postdoctoraux -->
 
 - **Fatemeh Gholi Zadeh Kharrat**, cosupervisor: [Caroline Sirois](http://www.crchudequebec.ulaval.ca/recherche/chercheurs/caroline-sirois/) <span class="an">2020–2023</span>
