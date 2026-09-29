@@ -1,25 +1,24 @@
-{% if site.footer_scripts %}
-  {% for script in site.footer_scripts %}
-    <script src="{{ script | relative_url }}"></script>
-  {% endfor %}
-{% else %}
-  <script src="{{ '/assets/js/main.min.js' | relative_url }}"></script>
-{% endif %}
-
-{% if site.search == true or page.layout == "search" %}
-  {%- assign search_provider = site.search_provider | default: "lunr" -%}
-  {%- case search_provider -%}
-    {%- when "lunr" -%}
-      {% include_cached search/lunr-search-scripts.html %}
-    {%- when "google" -%}
-      {% include_cached search/google-search-scripts.html %}
-    {%- when "algolia" -%}
-      {% include_cached search/algolia-search-scripts.html %}
-  {%- endcase -%}
-{% endif %}
+{%- comment -%}
+  Le site ne charge plus jQuery ni les greffons du thème : la navigation
+  gloutonne, la visionneuse d'images et le sommaire flottant ne servaient à
+  aucune des quatre pages. Reste la bascule clair / sombre, en clair ci-dessous.
+{%- endcomment -%}
+<script>
+  (function () {
+    var b = document.getElementById("theme-toggle");
+    if (!b) return;
+    b.addEventListener("click", function () {
+      var sombreSysteme = matchMedia("(prefers-color-scheme: dark)").matches;
+      var actuel = document.documentElement.dataset.theme ||
+                   (sombreSysteme ? "dark" : "light");
+      var voulu = actuel === "dark" ? "light" : "dark";
+      document.documentElement.dataset.theme = voulu;
+      try { localStorage.setItem("theme", voulu); } catch (e) {}
+    });
+  })();
+</script>
 
 {% include analytics.html %}
-{% include /comments-providers/scripts.html %}
 
 {% if site.after_footer_scripts %}
   {% for script in site.after_footer_scripts %}

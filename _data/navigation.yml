@@ -1,14 +1,21 @@
-# main links
+# `id` sert à marquer le lien courant : chaque page porte le même dans son
+# en-tête Jekyll (`nav:`). Comparer les URL ne marcherait pas des deux côtés,
+# ce site étant servi sous /english.
 main:
   - title: "About"
     url: /english
+    id: about
   - title: "Research"
     url: /english/research
+    id: research
   - title: "Teaching"
     url: /english/teaching
+    id: teaching
   - title: "Publications"
     url: "https://scholar.google.com/citations?hl=en&user=egixsbEAAAAJ&view_op=list_works&sortby=pubdate"
   - title: "Students"
     url: /english/students
-  - title: "<b>Français</b>"
+    id: students
+  - title: "Français"
     url: /
+    lang: true

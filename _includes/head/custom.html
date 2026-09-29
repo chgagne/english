@@ -1,5 +1,12 @@
 <!-- start custom head snippets -->
 
-<!-- insert favicons. use https://realfavicongenerator.net/ -->
+<!-- Style clair ou sombre : le choix explicite du lecteur l'emporte sur le
+     réglage du système. Appliqué avant tout rendu pour éviter le clignotement. -->
+<script>
+  try {
+    var t = localStorage.getItem("theme");
+    if (t === "light" || t === "dark") document.documentElement.dataset.theme = t;
+  } catch (e) { /* navigation privée : on s'en remet au système */ }
+</script>
 
 <!-- end custom head snippets -->

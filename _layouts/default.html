@@ -17,7 +17,12 @@
   <body class="layout--{{ page.layout | default: layout.layout }}{% if page.classes or layout.classes %}{{ page.classes | default: layout.classes | join: ' ' | prepend: ' ' }}{% endif %}">
     {% include_cached skip-links.html %}
     {% include_cached browser-upgrade.html %}
-    {% include_cached masthead.html %}
+    {%- comment -%}
+      Pas `include_cached` : le bandeau marque le lien de la page courante,
+      donc il diffère d'une page à l'autre. En cache, toutes les pages
+      héritaient du marquage de la première construite.
+    {%- endcomment -%}
+    {% include masthead.html %}
 
     <div class="initial-content">
       {{ content }}

@@ -105,41 +105,40 @@ atom_feed:
 author:
   name             : "Christian Gagné"
   avatar           : "/english/images/cgagne.jpg"
-  bio              : "[Canada-CIFAR AI Chair](https://cifar.ca/ai/canada-cifar-ai-chairs/), [Mila](https://mila.quebec/en/)<br/> Director of the [Institute Intelligence and Data (IID)](https://iid.ulaval.ca/en/)<br/> Professor at [Université Laval](https://www.ulaval.ca/en)"
+  # La biographie vit dans la page d'accueil ; la répéter ici la faisait paraître
+  # deux fois sur le même écran. Le bandeau ne garde qu'une ligne de situation.
+  role             : "Full Professor<br>Université Laval"
   location         : "Quebec City, Quebec, Canada"
+  # Plus d'`icon:` : les liens sont en texte, ce qui retire Font Awesome et sa
+  # requête vers un CDN à chaque chargement.
   links:
     - label: "christian.gagne@gel.ulaval.ca"
-      icon: "fas fa-fw fa-envelope-square"
       url: "mailto:christian.gagne@gel.ulaval.ca"
-    - label: "Publications (Scholar)"
-      icon: "fa fa-graduation-cap"
-      url: "https://scholar.google.com/citations?hl=en&user=egixsbEAAAAJ&view_op=list_works&sortby=pubdate"
-    - label: "Academic CV"
-      icon: "fas fa-certificate"
+    - label: "Curriculum vitæ (PDF)"
       url: "/english/files/cv-cgagne-en.pdf"
+    - label: "Google Scholar"
+      url: "https://scholar.google.com/citations?hl=en&user=egixsbEAAAAJ&view_op=list_works&sortby=pubdate"
+    - label: "GitHub"
+      url: "https://github.com/chgagne"
     - label: "Bluesky"
-      icon: "fa-brands fa-bluesky"
       url: "https://bsky.app/profile/cgagne.bsky.social"
     - label: "LinkedIn"
-      icon: "fab fa-fw fa-linkedin-in"
       url: "https://www.linkedin.com/in/christian-gagn%C3%A9-a926b47/"
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/chgagne"
 
 
 # Site Footer
 footer:
+  affiliation: "Université Laval"
   links:
-    - label: "Scholar"
-      icon: "fa fa-graduation-cap"
+    - label: "Google Scholar"
       url: "https://scholar.google.com/citations?hl=en&user=egixsbEAAAAJ&view_op=list_works&sortby=pubdate"
     - label: "Bluesky"
-      icon: "fa-brands fa-bluesky"
       url: "https://bsky.app/profile/cgagne.bsky.social"
     - label: "LinkedIn"
-      icon: "fab fa-fw fa-linkedin-in"
       url: "https://www.linkedin.com/in/christian-gagn%C3%A9-a926b47/"
+
+# Libellé du bouton de bascule clair / sombre, dans la langue du site.
+theme_toggle_label: "Switch between the light and dark styles"
 
 
 # Reading Files
@@ -156,13 +155,12 @@ exclude:
   - .bundle
   - .jekyll-assets-cache
   - .sass-cache
-  - assets/js/plugins
-  - assets/js/_main.js
-  - assets/js/vendor
+  - assets/js          # jQuery et les greffons du thème ne sont plus chargés
   - Capfile
   - CHANGELOG
   - config
   - Gemfile
+  - banner.js          # n'habillait que le JavaScript du thème, plus servi
   - Gruntfile.js
   - gulpfile.js
   - LICENSE
