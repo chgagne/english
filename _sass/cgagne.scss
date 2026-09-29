@@ -317,7 +317,7 @@ a:hover > .ic { opacity: 1; }
   // confronté par check-web.py au nombre de puces : il ne peut pas vieillir
   // sans que le contrôle le dise.
   .cpt {
-    margin-left: .5em;
+    margin-left: .15em;   // l'interlettrage du titre écarte déjà
     color: var(--mu);
     font: 400 .8rem/1 var(--mono);
     letter-spacing: 0;
@@ -543,7 +543,17 @@ a:hover > .ic { opacity: 1; }
   }
 
   .rail__photo { width: 64px; height: 64px; margin: 0; }
-  .rail__links { width: 100%; columns: 2; font-size: .78rem; }
+  // Pas `columns` : l'adresse de courriel est plus large qu'une demi-colonne et
+  // se coupait en deux. Les liens prennent la place qu'il leur faut.
+  .rail__links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: .35rem 1.4rem;
+    width: 100%;
+    font-size: .78rem;
+
+    li { margin: 0; }
+  }
 
   .site-nav {
     flex-direction: column;

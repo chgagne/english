@@ -5,7 +5,7 @@ nav: students
 ---
 
 
-## Ph.D. <span class="cpt">14</span>
+## Ph.D. <span class="cpt">(14)</span>
 {: #phd}
 <!-- cv-section: supervision/doctorat-en-cours -->
 
@@ -25,7 +25,7 @@ nav: students
 - **Sophie Baillargeon**, Mathematics (specialization in Statistic) (supervisor: [Thierry Duchesne](https://www.fsg.ulaval.ca/corps-professoral/thierry-duchesne))
 {: .gens}
 
-## Master's <span class="cpt">3</span>
+## Master's <span class="cpt">(3)</span>
 {: #masters}
 <!-- cv-section: supervision/maitrise-en-cours -->
 
@@ -37,7 +37,7 @@ nav: students
 ## Former Students
 {: .coupure #former}
 
-### Ph.D. <span class="cpt">14</span>
+### Ph.D. <span class="cpt">(14)</span>
 {: .rubrique #former-phd}
 <!-- cv-section: supervision/doctorat-diplomes -->
 
@@ -57,7 +57,7 @@ nav: students
 - **Darwin Brochero**, [*Hydroinformatics and Diversity in Hydrological Ensemble Prediction Systems*](http://hdl.handle.net/20.500.11794/24547), Water Engineering (supervisor: [François Anctil](https://www.gci.ulaval.ca/departement-et-professeurs/professeurs-et-personnel/professeurs/fiche/show/anctil-francois/)) <span class="an">2013</span>
 {: .gens}
 
-### Master's <span class="cpt">14</span>
+### Master's <span class="cpt">(14)</span>
 {: .rubrique #former-masters}
 <!-- cv-section: supervision/maitrise-diplomes -->
 
@@ -77,7 +77,7 @@ nav: students
 - **François-Michel De Rainville**, [*Design d'expérimentation interactif : Aide à la compréhension de systèmes complexes*](http://hdl.handle.net/20.500.11794/22172), Electrical Engineering (supervisor: [Denis Laurendeau](https://www.gelgif.ulaval.ca/departement-et-professeurs/personnel-et-professeurs/professeurs/fiche/show/laurendeau-denis/)) <span class="an">2010</span>
 {: .gens}
 
-### Postdoctoral Fellows <span class="cpt">8</span>
+### Postdoctoral Fellows <span class="cpt">(8)</span>
 {: .rubrique #postdocs}
 <!-- cv-section: supervision/postdoctoraux -->
 
