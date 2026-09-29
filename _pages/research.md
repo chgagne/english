@@ -53,6 +53,7 @@ My research interests lie on the elaboration of methods for machine learning and
 - Editorial Committee, [Genetic Programming and Evolvable Machines](http://www.springer.com/computer/ai/journal/10710), since 2013 <!-- cv: gpem-editorial -->
 
 ## Previous Appointments
+<!-- cv-section: organisation-evenements, comites/internationaux, comites/nationaux, comites/redaction, comites/programme, service-collectivite -->
 
 - Co-organizer, [Rendez-vous IA Québec](https://rdviaqc.com), 2018 - 2023 <!-- cv: rviaq -->
 - Executive Board, [ACM SIGEVO](http://sig.sigevo.org/index.html), 2017 - 2023 <!-- cv: sigevo-exec -->
