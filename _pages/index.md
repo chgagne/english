@@ -1,6 +1,7 @@
 ---
 permalink: /
 title: "Christian Gagné"
+nav: about
 ---
 <!-- cv-hors-portee -->
 > PhD project available in my team:
@@ -9,20 +10,20 @@ title: "Christian Gagné"
 Director of the [Institute Intelligence and Data (IID)](https://iid.ulaval.ca/en/)  
 [Canada-CIFAR AI Chair](https://cifar.ca/ai/canada-cifar-ai-chairs/), associate academic member to [Mila](https://mila.quebec/en/)  
 Member of [CVSL](https://vision.fsg.ulaval.ca/en) / [CeRVIM](https://cervim.fsg.ulaval.ca/en) / [CRDM](https://crdm.ulaval.ca) / [REPARTI](https://reparti.ulaval.ca/?page_id=115&lang=en) / [UNIQUE](https://www.unique.quebec/home) / [CERVO](https://cervo.ulaval.ca/en/) / [VITAM](https://vitam.ulaval.ca/en/) / [OBVIA](https://www.obvia.ca/en)  
-Full professor at the [Electrical Engineering and Computer Engineering Department](https://www.fsg.ulaval.ca/departements/departement-de-genie-electrique-et-de-genie-informatique) of  
-[Université Laval](https://www.ulaval.ca/en)  
+Full professor at the [Electrical Engineering and Computer Engineering Department](https://www.fsg.ulaval.ca/departements/departement-de-genie-electrique-et-de-genie-informatique) of [Université Laval](https://www.ulaval.ca/en)
+{: .lignes}
 
-Address:  
+## Contact
+
 Electrical Engineering and Computer Engineering Department  
-Adrien-Pouliot Building  
-Université Laval  
-Quebec City (Quebec)&nbsp;&nbsp;G1V 0A6  
-Canada
+Adrien-Pouliot Building, Université Laval  
+Quebec City (Quebec)&nbsp;&nbsp;G1V 0A6, Canada
+{: .lignes}
 
 Office: PLT-1138-F  
 Email: [christian.gagne@gel.ulaval.ca](mailto:christian.gagne@gel.ulaval.ca)  
 Phone: use email
-
+{: .lignes}
 
 ## Biosketch
 
