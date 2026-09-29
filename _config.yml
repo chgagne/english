@@ -91,12 +91,6 @@ social:
   name                   : # If the user or organization name differs from the site's name
   links: # An array of links to social media profiles
 
-# Analytics
-analytics:
-  provider               : "google" # false (default), "google", "google-universal", "google-gtag", "custom"
-  google:
-    tracking_id          : "UA-4723811-1"
-    anonymize_ip         : # true, false (default)
 
 # Hide feed link in the footer
 atom_feed:
@@ -109,20 +103,26 @@ author:
   # deux fois sur le même écran. Le bandeau ne garde qu'une ligne de situation.
   role             : "Full Professor<br>Université Laval"
   location         : "Quebec City, Quebec, Canada"
-  # Plus d'`icon:` : les liens sont en texte, ce qui retire Font Awesome et sa
-  # requête vers un CDN à chaque chargement.
+  # `icon:` nomme un pictogramme de `_includes/icones.html`, dessiné en ligne.
+  # Font Awesome n'est plus chargé : plus aucune requête vers un CDN.
   links:
     - label: "christian.gagne@gel.ulaval.ca"
+      icon: courriel
       url: "mailto:christian.gagne@gel.ulaval.ca"
     - label: "Curriculum vitæ (PDF)"
+      icon: cv
       url: "/english/files/cv-cgagne-en.pdf"
     - label: "Google Scholar"
+      icon: scholar
       url: "https://scholar.google.com/citations?hl=en&user=egixsbEAAAAJ&view_op=list_works&sortby=pubdate"
     - label: "GitHub"
+      icon: github
       url: "https://github.com/chgagne"
     - label: "Bluesky"
+      icon: bluesky
       url: "https://bsky.app/profile/cgagne.bsky.social"
     - label: "LinkedIn"
+      icon: linkedin
       url: "https://www.linkedin.com/in/christian-gagn%C3%A9-a926b47/"
 
 
@@ -131,10 +131,13 @@ footer:
   affiliation: "Université Laval"
   links:
     - label: "Google Scholar"
+      icon: scholar
       url: "https://scholar.google.com/citations?hl=en&user=egixsbEAAAAJ&view_op=list_works&sortby=pubdate"
     - label: "Bluesky"
+      icon: bluesky
       url: "https://bsky.app/profile/cgagne.bsky.social"
     - label: "LinkedIn"
+      icon: linkedin
       url: "https://www.linkedin.com/in/christian-gagn%C3%A9-a926b47/"
 
 # Libellé du bouton de bascule clair / sombre, dans la langue du site.

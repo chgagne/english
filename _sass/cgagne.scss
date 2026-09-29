@@ -28,8 +28,8 @@
 
   --colonne: 1080px;      // largeur de l'ossature
   --mesure: 44rem;        // largeur du texte, ~75 signes
-  --rail: 200px;
-  --gouttiere: 6.5rem;    // colonne des millésimes
+  --rail: 222px;          // assez pour l'adresse de courriel et son pictogramme
+  --gouttiere: 7rem;      // colonne des millésimes, « 2009–2013 et 2017 » compris
 }
 
 // Le réglage du système décide, sauf choix explicite du lecteur.
@@ -235,18 +235,36 @@ img { max-width: 100%; height: auto; }
   margin: 0;
   padding: 0;
   list-style: none;
-  font-size: .82rem;
+  font-size: .79rem;
 
-  li { margin: .42rem 0; overflow-wrap: anywhere; }
+  li { margin: .45rem 0; }
 
   a {
-    border-bottom: 1px solid transparent;
+    display: flex;
+    align-items: flex-start;
+    gap: .55em;
     color: var(--mu);
     text-decoration: none;
+    overflow-wrap: anywhere;
 
-    &:hover { color: var(--ac); border-bottom-color: var(--ru); }
+    &:hover { color: var(--ac); }
   }
 }
+
+// Pictogrammes : silhouettes pleines de `_includes/icones.html`, reprises par
+// `<use>`. Le jeu lui-même est caché, un seul exemplaire par page.
+.sprite { display: none; }
+
+.ic {
+  flex: none;
+  width: .95em;
+  height: .95em;
+  margin-top: .18em;
+  fill: currentColor;
+  opacity: .7;
+}
+
+a:hover > .ic { opacity: 1; }
 
 .page { min-width: 0; }
 .page__inner-wrap { max-width: var(--mesure); }
@@ -396,12 +414,34 @@ img { max-width: 100%; height: auto; }
 
   .an {
     position: absolute;
-    top: .7rem;
+    top: .56rem;
     left: 0;
     width: var(--gouttiere);
     color: var(--mu);
-    font: .78rem/1 var(--mono);
+    font: .78rem/1.35 var(--mono);
     font-variant-numeric: tabular-nums;
+  }
+
+  // Quand une entrée porte deux niveaux d'information sur la même ligne, le
+  // premier — nom, titre de cours, nom de logiciel — passe en gras et reprend
+  // la couleur du texte ; le reste recule dans le gris.
+  .gens li, .cours li, .logiciels li, .mandats li { color: var(--mu); }
+
+  .gens li strong,
+  .cours li strong,
+  .logiciels li strong { color: var(--tx); font-weight: 600; }
+
+  // Titre de thèse : ni au premier ni au dernier plan.
+  .gens li em { color: var(--tx); }
+
+  // Mandats : c'est l'organisme qu'on cherche du regard, et il est déjà lié.
+  .mandats li a { color: var(--tx); font-weight: 500; }
+
+  .sigle {
+    margin-right: .5em;
+    color: var(--mu);
+    font: .8rem/1 var(--mono);
+    letter-spacing: .02em;
   }
 
   // Listes de mots-clés : des puces, pas des rangées.
@@ -459,7 +499,16 @@ img { max-width: 100%; height: auto; }
   color: var(--mu);
   font-size: .8rem;
 
-  a { color: var(--mu); }
+  a {
+    display: inline-flex;
+    align-items: center;
+    gap: .45em;
+    color: var(--mu);
+    text-decoration: none;
+
+    &:hover { color: var(--ac); }
+  }
+  .ic { margin-top: 0; }
 }
 
 // ==========================================================================

@@ -2,7 +2,7 @@
   <span>{{ site.author.name }} — {{ site.footer.affiliation }}</span>
   {%- for link in site.footer.links %}
     {%- if link.label and link.url %}
-  <a href="{{ link.url }}" rel="noopener">{{ link.label }}</a>
+  <a href="{{ link.url }}" rel="noopener">{%- if link.icon %}<svg class="ic" aria-hidden="true"><use href="#i-{{ link.icon }}"/></svg>{% endif -%}{{ link.label }}</a>
     {%- endif %}
   {%- endfor %}
 </div>

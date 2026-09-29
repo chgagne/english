@@ -95,6 +95,24 @@ Les pages appellent quelques classes, toutes définies dans `cgagne.scss` :
 | `{: .coupure}` | après un titre de niveau 2 | titre en corps de texte, qui ouvre une vraie section |
 | `{: .rubrique}` | après un titre de niveau 3 | étiquette, comme les titres de niveau 2 ordinaires |
 | `<div class="axes" markdown="1">` | autour de deux titres et leurs listes | deux colonnes |
+| `{: .gens}` | après une liste d'étudiants | nom en gras, reste en gris |
+| `{: .cours}` | après une liste de cours | sigle en chasse fixe, titre en gras |
+| `{: .logiciels}` | après la liste des logiciels | nom en gras, description en gris |
+| `{: .mandats}` | après une liste de mandats | l'organisme lié ressort du rôle |
+| `<span class="sigle">GIF-7010</span>` | début d'une entrée de cours | sigle en chasse fixe |
+
+Les liens du bandeau latéral et du pied de page portent un pictogramme, nommé
+par `icon:` dans `_config.yml` et dessiné dans `_includes/icones.html`. Le jeu
+est posé une seule fois par page, en `<symbol>`, et repris par `<use>` ; c'est
+du SVG en ligne, donc **aucune requête vers un tiers**. Les quatre marques
+viennent de Simple Icons (CC0) ; le courriel et le document sont dessinés à la
+main. Ajouter un lien sans `icon:` fonctionne : le libellé paraît seul.
+
+**Il n'y a plus d'analytique.** Le script Google pointait depuis des années sur
+`UA-4723811-1`, un identifiant Universal Analytics que Google n'alimente plus
+depuis 2023 : il se chargeait en production sans rien mesurer. Le bloc de
+configuration, l'appel et les inclusions du thème ont été retirés le
+2026-09-29. N'en remettre qu'à la demande de Christian.
 
 Le millésime **reste en fin de ligne**, là où le CV l'écrit : c'est la feuille
 de style qui le remonte, pas le balisage. Le mettre en tête casserait la clé
@@ -138,6 +156,11 @@ d'authentification à l'API GitHub, et `faraday-retry`. **Tout le reste est un
 défaut à corriger avant de commiter.** Vérifier aussi que `_site/` ne contient
 que les pages voulues : `CLAUDE.md` s'y publiait comme page jusqu'à ce qu'il
 soit ajouté aux exclusions du `_config.yml`.
+
+**Prévisualiser localement.** `python3 -m http.server` ne suffit pas : GitHub
+Pages sert `/recherche` en retombant sur `recherche.html`, ce que le serveur de
+la bibliothèque standard ne fait pas, et les liens français paraissent alors
+tous cassés. Utiliser `bundle exec jekyll serve`, qui fait la même retombée.
 
 **Pourquoi `github-pages` est épinglée à `~> 232`** : sans contrainte, bundler
 résout vers Jekyll 3.9 et Liquid 4.0.3, qui appelle `Object#tainted?`, retiré de
