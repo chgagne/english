@@ -49,6 +49,10 @@ lus par `check-web.py` ; **ne pas les retirer**.
 | `<!-- cv-hors-portee -->` | après un titre | zone propre au site, jamais confrontée au CV |
 | `<!-- cv: slug -->` | en fin d'entrée | apparie l'entrée à un `% web: slug` du `.tex` |
 
+Le `<span class="an">` qui entoure le millésime n'est pas un marqueur de
+liaison, mais `check-web.py` le connaît : il retire les balises avant de
+comparer, et sort le millésime de la clé d'appariement.
+
 `cv-section` et `cv-hors-portee` portent du titre qui les précède jusqu'au titre
 suivant de même niveau ou de niveau supérieur ; placés avant tout titre, ils
 couvrent le préambule de la page.
@@ -66,6 +70,43 @@ Deux points à retenir :
 
 Les personnes, les cours et les logiciels n'ont pas besoin de marqueur : le nom,
 le sigle et le nom du projet suffisent à les apparier.
+
+## Feuille de style et conventions de balisage
+
+Depuis le 2026-09-29, `assets/css/main.scss` n'importe plus Minimal Mistakes :
+tout le style tient dans `_sass/cgagne.scss`. Le thème reste sur le disque et
+le balisage de ses gabarits est inchangé — `#main`, `.sidebar`,
+`.page__content` — donc rebrancher son import ferait revenir en arrière.
+
+Ce qui a été retiré : Font Awesome et sa requête vers un CDN, jQuery et ses
+cinq greffons. **Le seul JavaScript servi est la bascule entre le style clair
+et le style sombre**, en clair dans `_includes/scripts.html` ; n'y rien ajouter
+sans nécessité. Le style suit le réglage du système, qu'un bouton de l'en-tête
+permet de contredire ; le choix est retenu dans `localStorage` et appliqué en
+`<head>` avant tout rendu, sans quoi la page clignote au chargement.
+
+Les pages appellent quelques classes, toutes définies dans `cgagne.scss` :
+
+| écriture | où | effet |
+|---|---|---|
+| `<span class="an">2019</span>` | fin d'une entrée de liste | le millésime passe dans la gouttière de gauche |
+| `{: .lignes}` | après un paragraphe | lignes serrées, pour les rattachements et les coordonnées |
+| `{: .mots}` | après une liste | des puces plutôt que des rangées séparées par un filet |
+| `{: .coupure}` | après un titre de niveau 2 | titre en corps de texte, qui ouvre une vraie section |
+| `{: .rubrique}` | après un titre de niveau 3 | étiquette, comme les titres de niveau 2 ordinaires |
+| `<div class="axes" markdown="1">` | autour de deux titres et leurs listes | deux colonnes |
+
+Le millésime **reste en fin de ligne**, là où le CV l'écrit : c'est la feuille
+de style qui le remonte, pas le balisage. Le mettre en tête casserait la clé
+d'appariement de `check-web.py`, qui lit le début du texte.
+
+`nav:` dans l'en-tête Jekyll porte l'identifiant du lien de navigation à
+marquer comme courant ; il doit correspondre à un `id:` de
+`_data/navigation.yml`. Comparer les URL ne fonctionnerait pas des deux côtés,
+le site anglais étant servi sous `/english`.
+
+La gouttière repose sur `li:has(> .an)`. Si un navigateur ancien ignore
+`:has()`, le millésime reste en fin de ligne : la page se lit encore.
 
 ## Vérification avant commit
 
