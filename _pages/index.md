@@ -2,12 +2,13 @@
 permalink: /
 title: "Christian Gagné"
 ---
+<!-- cv-hors-portee -->
 > PhD project available in my team:
 > - [Methods for Learning Interpretable, Reliable and Robust Deep Models](https://www.projets-recherche.ulaval.ca/en/project?id=478332)
 
 Director of the [Institute Intelligence and Data (IID)](https://iid.ulaval.ca/en/)  
 [Canada-CIFAR AI Chair](https://cifar.ca/ai/canada-cifar-ai-chairs/), associate academic member to [Mila](https://mila.quebec/en/)  
-Member of [CVSL](http://vision.gel.ulaval.ca/en/index.php) / [CeRVIM](https://cervim.ulaval.ca/?page_id=115&lang=en) / [CRDM](https://crdm.ulaval.ca) / [REPARTI](https://reparti.ulaval.ca/?page_id=115&lang=en) / [UNIQUE](https://www.unique.quebec/home) / [CERVO](https://cervo.ulaval.ca/en/) / [VITAM](https://vitam.ulaval.ca/en/) / [OBVIA](https://www.obvia.ca/en)  
+Member of [CVSL](https://vision.fsg.ulaval.ca/en) / [CeRVIM](https://cervim.fsg.ulaval.ca/en) / [CRDM](https://crdm.ulaval.ca) / [REPARTI](https://reparti.ulaval.ca/?page_id=115&lang=en) / [UNIQUE](https://www.unique.quebec/home) / [CERVO](https://cervo.ulaval.ca/en/) / [VITAM](https://vitam.ulaval.ca/en/) / [OBVIA](https://www.obvia.ca/en)  
 Full professor at the [Electrical Engineering and Computer Engineering Department](https://www.fsg.ulaval.ca/departements/departement-de-genie-electrique-et-de-genie-informatique) of  
 [Université Laval](https://www.ulaval.ca/en)  
 
@@ -25,7 +26,7 @@ Phone: use email
 
 ## Biosketch
 
-Christian Gagné is a professor at the [Electrical Engineering and Computer Engineering Department](https://www.fsg.ulaval.ca/departements/departement-de-genie-electrique-et-de-genie-informatique) of [Université Laval](https://www.ulaval.ca/en) since 2008. He is founding director of the [Institute Intelligence and Data (IID)](https://iid.ulaval.ca/en/). He holds a [Canada-CIFAR Artificial Intelligence Chair](https://cifar.ca/ai/canada-cifar-ai-chairs/) and is an academic associate member to [Mila](https://mila.quebec/en). He is also a member of the [Computer Vision and Systems Laboratory](http://vision.gel.ulaval.ca/en/index.php) (CVSL), a component of the [Robotics, Vision and Machine Intelligence Research Centre](https://cervim.ulaval.ca/?page_id=115&lang=en) (CeRVIM), and the [Big Data Research Centre](https://crdm.ulaval.ca) (CRDM) of Université Laval. He is also participating to the [REPARTI](https://reparti.ulaval.ca/?page_id=115&lang=en) and [UNIQUE](https://www.unique.quebec/home) strategic clusters of the FRQNT, the [CERVO](https://cervo.ulaval.ca/en/) and [VITAM](https://vitam.ulaval.ca/en/) FRQS centers and the [International Observatory on the Societal Impacts of AI](https://www.obvia.ca/en) (OBVIA).
+Christian Gagné is a professor at the [Electrical Engineering and Computer Engineering Department](https://www.fsg.ulaval.ca/departements/departement-de-genie-electrique-et-de-genie-informatique) of [Université Laval](https://www.ulaval.ca/en) since 2008. He is founding director of the [Institute Intelligence and Data (IID)](https://iid.ulaval.ca/en/). He holds a [Canada-CIFAR Artificial Intelligence Chair](https://cifar.ca/ai/canada-cifar-ai-chairs/) and is an academic associate member to [Mila](https://mila.quebec/en). He is also a member of the [Computer Vision and Systems Laboratory](https://vision.fsg.ulaval.ca/en) (CVSL), a component of the [Robotics, Vision and Machine Intelligence Research Centre](https://cervim.fsg.ulaval.ca/en) (CeRVIM), and the [Big Data Research Centre](https://crdm.ulaval.ca) (CRDM) of Université Laval. He is also participating to the [REPARTI](https://reparti.ulaval.ca/?page_id=115&lang=en) and [UNIQUE](https://www.unique.quebec/home) strategic clusters of the FRQNT, the [CERVO](https://cervo.ulaval.ca/en/) and [VITAM](https://vitam.ulaval.ca/en/) FRQS centers and the [International Observatory on the Societal Impacts of AI](https://www.obvia.ca/en) (OBVIA).
 
 He completed a PhD in Electrical Engineering (Université Laval) in 2005 and then had a postdoctoral stay jointly at [INRIA Saclay](https://www.inria.fr/en/inria-saclay-centre) (France) and the [University of Lausanne](https://www.unil.ch/unil/en/home.html) (Switzerland) in 2005-2006. He worked as research associate in the industry between 2006 and 2008.
 
