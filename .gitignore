@@ -1,0 +1,11 @@
+# Artefacts de la construction locale. Le site publié est reconstruit par
+# GitHub Pages à chaque poussée, donc rien de tout ceci n'a à être versionné.
+_site/
+.jekyll-cache/
+.jekyll-metadata
+.sass-cache/
+vendor/
+.bundle/
+
+# macOS
+.DS_Store

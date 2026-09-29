@@ -69,6 +69,10 @@ le sigle et le nom du projet suffisent à les apparier.
 
 ## Vérification avant commit
 
+Deux contrôles, tous deux obligatoires.
+
+**L'écart avec le CV :**
+
 ```sh
 python3 ~/Claude/CV/tools/check-web.py
 ```
@@ -76,16 +80,37 @@ python3 ~/Claude/CV/tools/check-web.py
 Aucun écart non expliqué, sans quoi le commit attend. Le contrôle lit les deux
 sites d'un coup, donc il vaut pour les deux dépôts.
 
-**La construction Jekyll locale n'est pas possible sur cette machine** : seul le
-Ruby système 2.6.10 est installé, sans `Gemfile.lock` ni chaîne `github-pages`.
-À ajouter à cette liste le jour où une chaîne Ruby sera en place.
+**La construction Jekyll :**
 
-En attendant, à l'œil sur toute page modifiée : syntaxe des liens markdown
-(`]((` doublé, espace collée à l'astérisque d'italique, parenthèses
-déséquilibrées) et adresses sortantes. Au 2026-09-28, seize liens sur cent
-trente-quatre ne résolvaient plus, dont quatre en page d'accueil : Université
-Laval déplace ses sites vers `fsg.ulaval.ca`, et les pages personnelles des
-anciens étudiants déménagent.
+```sh
+export PATH="/opt/homebrew/opt/ruby@3.3/bin:$PATH"
+bundle exec jekyll build
+```
+
+Ruby 3.3 de Homebrew est *keg-only* : sans cette ligne de `PATH`, c'est le Ruby
+système 2.6.10 qui répond et rien ne fonctionne. Les gems vivent dans
+`vendor/bundle`, hors du suivi de version ; `bundle install` les réinstalle.
+
+Trois avertissements sont attendus et sans objet : la pagination sans page
+d'index (le thème l'active pour un blogue qui n'existe pas ici), l'absence
+d'authentification à l'API GitHub, et `faraday-retry`. **Tout le reste est un
+défaut à corriger avant de commiter.** Vérifier aussi que `_site/` ne contient
+que les pages voulues : `CLAUDE.md` s'y publiait comme page jusqu'à ce qu'il
+soit ajouté aux exclusions du `_config.yml`.
+
+**Pourquoi `github-pages` est épinglée à `~> 232`** : sans contrainte, bundler
+résout vers Jekyll 3.9 et Liquid 4.0.3, qui appelle `Object#tainted?`, retiré de
+Ruby en 3.2. La 232 est la version que GitHub exécute et apporte Jekyll 3.10.0
+avec Liquid 4.0.4. Elle exige Ruby < 4.0, d'où le 3.3 plutôt que le Ruby par
+défaut de Homebrew.
+
+**À l'œil sur toute page modifiée**, ce que la construction ne dit pas : syntaxe
+des liens markdown (`]((` doublé, espace collée à l'astérisque d'italique,
+parenthèses déséquilibrées) et adresses sortantes. Au 2026-09-28, seize liens
+sur cent trente-quatre ne résolvaient plus, dont quatre en page d'accueil :
+Université Laval déplace ses sites vers `fsg.ulaval.ca`, et les pages
+personnelles des anciens étudiants déménagent. Ne jamais conclure à un lien mort
+sur un seul outil : `curl` rendait 000 sur des hôtes parfaitement vivants.
 
 ## Autonomie
 

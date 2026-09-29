@@ -147,6 +147,8 @@ include:
   - .htaccess
   - _pages
 exclude:
+  - CLAUDE.md          # règles de gestion du dépôt, jamais publiées
+  - Gemfile.lock
   - "*.sublime-project"
   - "*.sublime-workspace"
   - vendor
