@@ -166,6 +166,18 @@ défaut à corriger avant de commiter.** Vérifier aussi que `_site/` ne contien
 que les pages voulues : `CLAUDE.md` s'y publiait comme page jusqu'à ce qu'il
 soit ajouté aux exclusions du `_config.yml`.
 
+`site.racine` porte la racine servie par le dépôt — `/` ici pour le français,
+`/english/` pour l'anglais. C'est la seule différence de chemin entre les deux
+sites, et elle vit dans `_config.yml` pour que `head.html` et `masthead.html`
+restent identiques de part et d'autre. Avant le 2026-09-29, la page anglaise
+chargeait `/assets/css/main.css`, c'est-à-dire la feuille du site français —
+elle ne s'en apercevait pas, les deux fichiers étant identiques — et le titre
+de son bandeau renvoyait à l'accueil français.
+
+`site.url` est l'adresse servie, `https://christiangagne.net`, et non
+`chgagne.github.io` qui y redirige : c'est elle que portent la balise
+canonique, `og:url` et le plan du site.
+
 **Prévisualiser localement.** `python3 -m http.server` ne suffit pas : GitHub
 Pages sert `/recherche` en retombant sur `recherche.html`, ce que le serveur de
 la bibliothèque standard ne fait pas, et les liens français paraissent alors

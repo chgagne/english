@@ -14,7 +14,7 @@
 </script>
 
 <!-- For all browsers -->
-<link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
+<link rel="stylesheet" href="{{ site.racine | append: 'assets/css/main.css' }}">
 
 {% if site.head_scripts %}
   {% for script in site.head_scripts %}
